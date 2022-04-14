@@ -5,52 +5,33 @@ import ContactForm from "./components/ContactForm";
 //import TestComponent from "../testing/TestComponent";
 
 function App() {
-  return <ContactForm />
+  return <ContactForm />;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  // const [name, setName] = useState("Nandu");
-  // const [loading, setLoading] = useState(false);
-  // const handleClick = () => {
-  //   setLoading(true);
-  //   setTimeout(() => {
-  //     setName("Nandini Mudhireddy");
-  //     setLoading(false);
-  //   }, 3000);
-  // };
-  // return (
-  //   // <form>
-  //   //   <label>Name</label>
-  //   //   <input type="text" ></input>
-  //   //   <label>email</label>
-  //   //   <input type="email" ></input>
-  //   //   <label>Message</label>
-  //   //   <input type="textarea" ></input>
-  //   // </form>
-  //   <div>
-  //     <p>Name using useState</p>
-  //     {loading ? <h1>Loading...</h1> : <h2>{name}</h2>}
-  //     <button onClick={handleClick}>Click</button>
-  //   </div>
-  // );
-
+// const [name, setName] = useState("Nandu");
+// const [loading, setLoading] = useState(false);
+// const handleClick = () => {
+//   setLoading(true);
+//   setTimeout(() => {
+//     setName("Nandini Mudhireddy");
+//     setLoading(false);
+//   }, 3000);
+// };
+// return (
+//   // <form>
+//   //   <label>Name</label>
+//   //   <input type="text" ></input>
+//   //   <label>email</label>
+//   //   <input type="email" ></input>
+//   //   <label>Message</label>
+//   //   <input type="textarea" ></input>
+//   // </form>
+//   <div>
+//     <p>Name using useState</p>
+//     {loading ? <h1>Loading...</h1> : <h2>{name}</h2>}
+//     <button onClick={handleClick}>Click</button>
+//   </div>
+// );
 
 // function App() {
 //   const [name, setName] = useState("Ganesh");
